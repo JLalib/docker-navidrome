@@ -86,6 +86,8 @@ En la sección `environment:` del `compose.yml` puedes configurar opciones adici
 
 - **ND_LOGLEVEL** — Nivel de log (`info`, `debug`, `warn`, `error`)
 - **ND_DEVACTIVITYPANEL** — Mostrar o no el panel de actividad en desarrollo (`true` o `false`)
+- **ND_ENABLEINSIGHTSCOLLECTOR** — Habilita o deshabilita la recolección de datos de uso (por defecto `true`, recomendable poner `false` para mayor privacidad)
+- **ND_ENABLEEXTERNALSERVICES** — Permite o bloquea el uso de servicios externos. Si se establece en `false`, también se desactiva la recolección de datos.
 
 La lista completa de variables disponibles está en la documentación oficial de Navidrome:  
 [https://www.navidrome.org/docs/usage/configuration-options/](https://www.navidrome.org/docs/usage/configuration-options/)
