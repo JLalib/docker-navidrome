@@ -42,6 +42,8 @@ services:
     environment:
       ND_LOGLEVEL: info
       ND_DEVACTIVITYPANEL: "false"
+      ND_ENABLEINSIGHTSCOLLECTOR: "false"
+      ND_ENABLEEXTERNALSERVICES: "false"
     restart: unless-stopped
     volumes:
       - "${DATA_PATH}:/data"
